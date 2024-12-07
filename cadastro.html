@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    
+    <header>
+    
+        <div class="center">
+        <div class="logo"> <img class="logo" src="imagens/logo 1.png"> </div><!--logo-->
+        <div class="menu"> 
+        <a href="index.html"> Home</a>
+        <a href="sobre.html"> Sobre</a>
+        <a href="produtos.html"> Produtos</a>
+        <a href="contato.html">Contatos</a>
+        </div> <!--menu-->   
+    
+    </header>
+
+    <form class="login-container" method="POST" action="cadastro.php">
+        <div class="login">
+            <h2>Cadastre-se</h2>
+        <input type="hidden" name="acao" value="cadastrar">
+        <input type="text" name="nome" placeholder="Nome Completo" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <input type="text" name="endereco" placeholder="Endereço" required>
+        <input type="password" name="senha" placeholder="Senha" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+    
+    
+
+
+
+
+
+</body>
+</html>

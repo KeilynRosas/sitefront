@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#f3ede0;
+}
+
+
+.center{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+.header{
+    padding: 20px;
+}
+
+.button {
+    color: #c07307;
+}
+.logo{
+    padding-top: 20px;
+    width: 115px;
+    border-radius: 20%;
+  
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold ;
+    margin-right: 15px;
+    align-items:right;
+
+}
+.cardss{
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c07307;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #b377008d;
+}
+.paragrafo{
+    text-align: center;
+    justify-content: center;
+}
